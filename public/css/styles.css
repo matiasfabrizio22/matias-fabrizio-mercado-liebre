@@ -116,10 +116,6 @@ i{
   
 }
 
-.no-desc{
-    display: none;
-}
-
 .titulos{
     font-size: 24px;
     text-align: left;
@@ -220,12 +216,7 @@ i{
     padding-bottom: 20px;
 }
 
-.ml-f{
-    display: flex;
-    flex-direction: column;
-    height: 25vw;
-border: black 3px solid;
-}
+
 
 .m-header{
     margin: 0%;
@@ -303,9 +294,9 @@ border: black 3px solid;
     align-items: center;
 }
 .sep{
-    padding: 20px;
+    padding: 28px;
+    font-size: 10px;
 }
-
 
 .flex-r{
     display: flex;
