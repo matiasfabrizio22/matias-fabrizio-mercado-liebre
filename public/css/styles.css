@@ -202,7 +202,14 @@ i{
     text-align: center;
 }
 
-
+.foot {
+    display: flex;
+    margin: auto;
+    width: 90%;
+  }
+  .icono-footer:hover {
+    color: #ebebeb;
+  }
 /* tablet */
 @media (min-width:520px){
 /* head */
@@ -339,4 +346,18 @@ display: flex;
 .no-desc{
     display: block;
 }
+
+
+
+
+  .articles:hover {
+    .detail {
+      display: block;
+    }
+  }
+
+
+  .delivery-icon:hover {
+    transform: rotate(-90deg);
+  }
 }

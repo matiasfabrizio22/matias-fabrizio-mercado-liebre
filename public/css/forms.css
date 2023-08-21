@@ -142,12 +142,24 @@ main{
     flex-direction: row;
 
 }
-
+.interest {
+    display: flex;
+    flex-direction: column;
+  }
 .lp-1{
-    margin: 5%;
+    
 }
 
 .l-1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.l-2{
     display: flex;
     flex-direction: column;
     
@@ -171,7 +183,14 @@ label{
     font-weight: bold;
 }
 
+.error {
+  display: none;
+  color: red;
+}
 
+input:invalid + .error {
+  display: block;
+}
 
 
 /* inicio footer */

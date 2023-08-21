@@ -102,9 +102,19 @@ padding: 1%;
 
 /* final login */
 /* inicio footer */
+.foot {
+    display: flex;
+    margin: auto;
+    width: 90%;
+  }
+  .icono-footer:hover {
+    color: #ebebeb;
+  }
+
 .blue-icon{
     color:#1259c3;
 }
+
 .text-center{
     text-align: center;
 }
