@@ -1,0 +1,123 @@
+*{
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ebebeb;
+    margin: 0px;
+    padding: 0px;  
+}
+
+.flex-box{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    border: red solid 3px;
+}
+
+main{
+    background-color: #666;
+}
+
+.flex-v{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.lp-1{
+    margin: 5%;
+}
+
+.l-1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+label{
+    padding: 5%;
+}
+.lp-2{
+   margin: 2vw;
+}
+
+
+.flex-v-2{
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+
+/* inicio footer */
+.blue-icon{
+    color:#1259c3;
+}
+.text-center{
+    text-align: center;
+}
+
+
+/* tablet */
+@media (min-width:520px){
+/* head */
+.shadow{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);  
+}
+
+/* se tienen que ver 2 articulos */
+.f-articulo{
+    width: 47%;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+}
+
+
+
+
+/* inicio desktop */
+
+
+@media (min-width:1280px){
+  /* se tienen que ver 4 articulos  */
+.hmb{
+    display: none;
+   margin: 0%;
+   padding: 0%;
+}
+
+.nhide{
+    display: block;
+    padding: 5px;
+}
+
+.f-articulo{
+    width: 23%;
+}
+
+.f-flex{
+display: flex;
+}
+
+.fa-flex{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+}
+
+}

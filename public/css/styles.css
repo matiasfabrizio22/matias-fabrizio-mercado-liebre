@@ -14,13 +14,12 @@ i{
     margin: 4px 8px;
 }
     /* inicio header */
-    .bg-yellow{
-        background-color: #EAC926;  
-    }
-    .main-header{
+    .m-header{
         background-color: #EAC926;
         padding: 20px;
     }
+    
+    
     
     .hamburger-button{
         background-color: #03264c;
@@ -89,8 +88,6 @@ i{
         color: black;
         text-decoration: none;
     }
-
-
   /* final header */
   /* inicio main */
   
@@ -219,14 +216,99 @@ i{
     padding-bottom: 20px;
 }
 
+.ml-f{
+    display: flex;
+    flex-direction: column;
+    height: 25vw;
+border: black 3px solid;
+}
 
+.m-header{
+    margin: 0%;
+}
 
+.searchForm{
+    width: 30%;
+    display: flex;
+    border-radius: 3px;
+    position: relative;
+    margin-left: 5%;
+    margin-top:4% ;
+}
 
+#searchBar{
+    width: 100%;
+    border: none;
+    padding: 3px;
+}
 
+.searchButton{
+    background: none;
+    cursor: pointer;
+    padding: 0 10px;
+    background-color: #fff;
+    flex-direction: row;
 }
 
 
 
+.ml-l2{
+    display: flex;
+    width: 30%;
+    padding-top: 40px;
+    }
+  
+.main-header-top-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.main-header-bottom-bar{
+    display:flex;
+    width: 100%;
+    padding: 0px;
+    height: 5vw;
+    align-items: center;
+}
+
+.main-header-bottom-bar{
+    display:flex; 
+    flex-direction: row; 
+}
+.right-navbar{
+    display: flex;
+    width: 65%;
+    align-items: center;
+    
+}
+
+.left-navbar{
+    display: flex;
+    width: 100%;
+}
+.wd{
+    width: 30%;
+}
+
+.hamburger-button{
+    display: none;
+}
+.left-navbar{
+    align-items: center;
+}
+.sep{
+    padding: 20px;
+}
+
+
+.flex-r{
+    display: flex;
+    flex-direction: row;
+}
+
+}
 
 /* inicio desktop */
 
@@ -243,9 +325,6 @@ i{
     display: block;
     padding: 5px;
 }
-
-
-
 
 .f-articulo{
     width: 23%;

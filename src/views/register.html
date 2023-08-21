@@ -18,37 +18,95 @@
 </head>
 <body>
  
-    <form action="/registro" method="POST">
+    <form class="flex-box" action="/registro" method="POST">
         <label for="nombre">Nombre y apellido</label>
         <input type="text" name="nombre y apellido" id="nombre">
     
-        <label for="nombre">Nombre de usuari@</label>
-        <input type="text" name="nombre y apellido" id="nombre">
+
+
+        <label    for="nombre">Nombre de usuari@</label>
+        <input    type="text" name="nombre y apellido" id="nombre">
         
+
+
         <label for="telefono">Edad:</label>
         <input type="tel" name="edad" id="telefono">
 
-        <label for="nacimiento">fecha de nacimitno</label>
+
+
+        <label   class="titulo"  for="nacimiento">fecha de nacimiento</label>
         <input type="date" name="fecha" value="2021-07-22" min="2018-01-01" max="2022-12-31">
 
 
 
+        <label for="adress">domicilio</label>
+        <input type="text" name="domicilio">
+        <label for="newsletter">¿Comprador o Vendedor?</label>
+<div class="flex-v">   
+    <input type="radio" name="vendedor" value="Efectivo">
+    <label for="newsletter">comprador</label>
+    <input type="radio" name="vendedor" value="Débito">
+    <label for="newsletter">vendedor</label>
+    </div>
+
+    <label for="newsletter">¡Quiero ese newsletter!</label>
+<div class="l-1">
+    <section>
+    <input type="checkbox" name="newsletter">
+    <label for="newsletter">electro</label>
+</section>
+<section>
+
+    <input type="checkbox" name="newsletter">
+    <label for="newsletter">moda</label>
+    
+</section>
+<section>
+
+    <input type="checkbox" name="newsletter">
+    <label for="newsletter">hogar</label>
+    
+</section>
+<section>
+
+    <input type="checkbox" name="newsletter">
+    <label for="newsletter">jugueteria</label>
+    
+</section>
+<section>
+
+    <input type="checkbox" name="newsletter">
+    <label for="newsletter">vida sana</label>
+    
+</section>
+ </div>
+ <label for="newsletter">Foto de Usuario</label>
+        <input type="file" name="avatar" accept=".jpg" multiple>
+        
 
 
 
+        <label for="newsletter">Contraseña</label>
+        <input type="password" name="clave">
+
+        <label for="newsletter">Confirmar Contraseña</label>
+        <input type="password" name="clave">
+
+        </form>
 
 
+        <form class="flex-v-2" action="/home" method="POST">
 
+<p>
+       <button  class="lp-2"     type="submit">Enviar</button>
+    </p>
+    <p>
+        <button  class="lp-2"     type="reset">Borrar</button>
+     </p>
 
-
-
-
-
-
-
-
-
-    </form>
+    
+        </form>
+   
 
 
 
