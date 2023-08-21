@@ -17,7 +17,43 @@
     <title>Crea tu Cuenta</title>
 </head>
 <body>
- 
+    <header class="m-header">
+        <div class="main-header-top-bar">
+            <img src="/images/logo-mercado-liebre.svg" class="logo wd">
+            <form class="searchForm wd">
+                <input id="searchBar" type="text" placeholder="Buscar productos, marcas y mas...">
+                <button class="searchButton" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <h2 class="copy-header wd">
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+                Comprá en cuotas y sin tarjeta de crédito
+            </h2>
+        </div>
+        <a href="#" class="hamburger-button">
+            <i class="fa-solid fa-bars"></i>
+        </a>
+        <nav class="main-header-bottom-bar">
+            <ul class="left-navbar" type="none">
+                <li><a class="sep" href="#">Ofertas</a></li>
+                <li><a class="sep" href="#">Tiendas Oficiales</a></li>
+                <li><a class="sep" href="#">Vender</a></li>
+                <li><a class="sep" href="#">Ayuda</a></li>
+            </ul>
+            <ul class="right-navbar" type="none">
+                <div class="sep">
+                    <li><a href="register">Creá tu cuenta</a><i class="fa-solid fa-id-card"></i></li>
+                </div>
+                <div class="sep">
+                    <li><a href="login">Ingresá</a><i class="fa-solid fa-right-to-bracket"></i></li>
+                </div>
+                <div class="sep">
+                    <li><a href="#">Mis compras</a><i class="fa-solid fa-basket-shopping"></i></li>
+                </div>
+            </ul>
+        </nav>
+    </header> 
+    <img class="banner" src="/images/img-home-banner.jpg" alt="img-home-banner">
+
     <form class="flex-box" action="/registro" method="POST">
         <label for="nombre">Nombre y apellido</label>
         <input type="text" name="nombre y apellido" id="nombre">

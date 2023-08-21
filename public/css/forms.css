@@ -3,6 +3,121 @@
     box-sizing: border-box;
 }
 
+
+body{
+    background-color: #ebebeb;
+    margin: 0px;
+    padding: 0px;  
+}
+
+i{
+    font-size: 20px;
+    margin: 4px 8px;
+}
+
+.banner{
+    width: 100vw;
+ }
+
+    /* inicio header */
+    .m-header{
+        background-color: #EAC926;
+        padding: 20px;
+    }
+    
+    
+    
+    .hamburger-button{
+        background-color: #03264c;
+        color: #ffffff;
+        display: block;
+        max-width: 40px;
+        padding:8px 0px;
+        border-radius: 8px;
+        text-align: center;
+        font-size: 20px;
+        margin: auto;
+    }
+    
+    .main-header-top-bar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .copy-header{
+        font-weight: 400;
+        max-width: 340px;
+        margin-top: 20px;
+        font-size: 16px;
+        text-align: center;
+        display: block;
+    }
+    
+    .logo{
+        width: 50%;
+    }
+    
+    .searchForm{
+        width: 50%;
+        display: flex;
+        border-radius: 5px;
+        position: relative;
+    }
+    
+    #searchBar{
+        width: 80%;
+        border: none;
+        padding: 5px;
+    }
+    
+    .searchButton{
+        background: none;
+        cursor: pointer;
+        padding: 0 10px;
+        background-color: #fff;
+        border: none;
+    }
+    
+    
+    .searchButton i{
+        width: 20%;
+        color: #666;
+        
+    }
+    
+    .main-header-bottom-bar{
+        display:none;
+    }
+    
+    .main-header-bottom-bar a{
+        color: black;
+        text-decoration: none;
+    }
+  /* final header */
+  /* inicio main */
+  
+
+  .bg-light-grey{
+    background-color: #ebebeb;
+}
+
+  .main{
+    width: 90vw;
+    padding:auto;
+     margin:auto;
+}
+
+.center{
+    display: grid;
+    place-content: center;
+}
+
+
+
+
+
+
 body{
     background-color: #ebebeb;
     margin: 0px;
@@ -12,9 +127,10 @@ body{
 .flex-box{
     display: flex;
     flex-direction: column;
-    padding-left: 10%;
-    padding-right: 10%;
-    border: red solid 3px;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 main{
@@ -69,31 +185,145 @@ label{
 
 /* tablet */
 @media (min-width:520px){
+
+
+
+    @media (min-width:520px){
+        /* head */
+        .shadow{
+            box-shadow: 0px 0px 10px rgb(100, 100, 100);  
+        }
+        
+        /* se tienen que ver 2 articulos */
+        .f-articulo{
+            width: 47%;
+            padding-bottom: 20px;
+        }
+        
+        
+        
+        .m-header{
+            margin: 0%;
+        }
+        
+        .searchForm{
+            width: 30%;
+            display: flex;
+            border-radius: 3px;
+            position: relative;
+            margin-left: 5%;
+            margin-top:4% ;
+        }
+        
+        #searchBar{
+            width: 100%;
+            border: none;
+            padding: 3px;
+        }
+        
+        .searchButton{
+            background: none;
+            cursor: pointer;
+            padding: 0 10px;
+            background-color: #fff;
+            flex-direction: row;
+        }
+        
+        
+        
+        .ml-l2{
+            display: flex;
+            width: 30%;
+            padding-top: 40px;
+            }
+          
+        .main-header-top-bar{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        
+        .main-header-bottom-bar{
+            display:flex;
+            width: 100%;
+            padding: 0px;
+            height: 5vw;
+            align-items: center;
+        }
+        
+        .main-header-bottom-bar{
+            display:flex; 
+            flex-direction: row; 
+        }
+        .right-navbar{
+            display: flex;
+            width: 65%;
+            align-items: center;
+            
+        }
+        
+        .left-navbar{
+            display: flex;
+            width: 100%;
+        }
+        .wd{
+            width: 30%;
+        }
+        
+        .hamburger-button{
+            display: none;
+        }
+        .left-navbar{
+            align-items: center;
+        }
+        .sep{
+            padding: 28px;
+            font-size: 10px;
+        }
+        
+        .flex-r{
+            display: flex;
+            flex-direction: row;
+        }
+        
+        }
+
+
+
+
+
+
+
+
+
+
 /* head */
 .shadow{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);  
 }
 
+.flex-box{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
 /* se tienen que ver 2 articulos */
 .f-articulo{
     width: 47%;
     padding-bottom: 20px;
 }
 
-
-
-
-
 }
-
-
-
 
 /* inicio desktop */
 
-
 @media (min-width:1280px){
+
   /* se tienen que ver 4 articulos  */
+
 .hmb{
     display: none;
    margin: 0%;

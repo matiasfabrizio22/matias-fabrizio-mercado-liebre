@@ -1,0 +1,249 @@
+*{
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+/* inicio header */
+.m-header{
+    background-color: #EAC926;
+    padding: 20px;
+}
+
+
+
+.hamburger-button{
+    background-color: #03264c;
+    color: #ffffff;
+    display: block;
+    max-width: 40px;
+    padding:8px 0px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+}
+
+.main-header-top-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.copy-header{
+    font-weight: 400;
+    max-width: 340px;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+}
+
+.logo{
+    width: 50%;
+}
+
+.searchForm{
+    width: 50%;
+    display: flex;
+    border-radius: 5px;
+    position: relative;
+}
+
+#searchBar{
+    width: 80%;
+    border: none;
+    padding: 5px;
+}
+
+.searchButton{
+    background: none;
+    cursor: pointer;
+    padding: 0 10px;
+    background-color: #fff;
+    border: none;
+}
+
+
+.searchButton i{
+    width: 20%;
+    color: #666;
+    
+}
+
+.main-header-bottom-bar{
+    display:none;
+}
+
+.main-header-bottom-bar a{
+    color: black;
+    text-decoration: none;
+}
+/* final header */
+.log-f1{
+display: flex;
+flex-direction: column;
+align-items: center;
+border: #1259c3 2px solid;
+}
+
+.log-f2{
+display: flex;
+padding: 1%;
+border: red 2px solid;
+}
+
+
+
+/* inicio login */
+
+
+
+
+
+/* final login */
+/* inicio footer */
+.blue-icon{
+    color:#1259c3;
+}
+.text-center{
+    text-align: center;
+}
+
+
+/* tablet */
+@media (min-width:520px){
+/* head */
+.shadow{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);  
+}
+
+/* se tienen que ver 2 articulos */
+.f-articulo{
+    width: 47%;
+    padding-bottom: 20px;
+}
+
+
+
+.m-header{
+    margin: 0%;
+}
+
+.searchForm{
+    width: 30%;
+    display: flex;
+    border-radius: 3px;
+    position: relative;
+    margin-left: 5%;
+    margin-top:4% ;
+}
+
+#searchBar{
+    width: 100%;
+    border: none;
+    padding: 3px;
+}
+
+.searchButton{
+    background: none;
+    cursor: pointer;
+    padding: 0 10px;
+    background-color: #fff;
+    flex-direction: row;
+}
+
+
+
+.ml-l2{
+    display: flex;
+    width: 30%;
+    padding-top: 40px;
+    }
+  
+.main-header-top-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.main-header-bottom-bar{
+    display:flex;
+    width: 100%;
+    padding: 0px;
+    height: 5vw;
+    align-items: center;
+}
+
+.main-header-bottom-bar{
+    display:flex; 
+    flex-direction: row; 
+}
+.right-navbar{
+    display: flex;
+    width: 65%;
+    align-items: center;
+    
+}
+
+.left-navbar{
+    display: flex;
+    width: 100%;
+}
+.wd{
+    width: 30%;
+}
+
+.hamburger-button{
+    display: none;
+}
+.left-navbar{
+    align-items: center;
+}
+.sep{
+    padding: 28px;
+    font-size: 10px;
+}
+
+.flex-r{
+    display: flex;
+    flex-direction: row;
+}
+
+}
+
+/* inicio desktop */
+
+
+@media (min-width:1280px){
+  /* se tienen que ver 4 articulos  */
+.hmb{
+    display: none;
+   margin: 0%;
+   padding: 0%;
+}
+
+.nhide{
+    display: block;
+    padding: 5px;
+}
+
+.f-articulo{
+    width: 23%;
+}
+
+.f-flex{
+display: flex;
+}
+
+.fa-flex{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+}
+
+.no-desc{
+    display: block;
+}
+}
